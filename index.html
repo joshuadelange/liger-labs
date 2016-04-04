@@ -28,6 +28,9 @@
 			</section>
 
 			<section id="foundation-matters">
+				<div id="box"></div>
+				<img src="rainbow.gif" alt="weeeeeeeeeeeeeee">
+
 				<h2>Foundation Matters</h2>
 				<p>Liger Creative Labs is set up to adhere to the Dutch Cultural Governance code.</p>
 
@@ -40,5 +43,16 @@
 			</section>
 
 		</article>
+
+		<script>
+			document.getElementById('box').onclick = function(){
+				this.style.display = 'none';
+				document.getElementsByTagName('img')[0].style.display = 'block';
+			};
+			document.getElementsByTagName('img')[0].onclick = function(){
+				this.style.display = 'none';
+				document.getElementById('box').style.display = 'block';
+			};
+		</script>
 	</body>
 </html>

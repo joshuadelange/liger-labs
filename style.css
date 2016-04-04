@@ -26,6 +26,21 @@ p {
 	margin-bottom: 40px;
 }
 
+#box, img {
+	width: 96px;
+	margin: 0 auto;
+	display: block;
+}
+
+#box {
+	background-color: silver;
+	height: 180px;
+}
+
+img {
+	display: none;
+}
+
 section {
 	margin-top: 100px;
 }
