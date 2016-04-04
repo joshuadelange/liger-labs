@@ -9,6 +9,13 @@ article {
 	padding-bottom: 100px;
 }
 
+@media(max-width: 600px){
+	article {
+		width: auto;
+		padding: 0 50px;
+	}
+}
+
 h1, h2 {
 	text-align: center;
 }
